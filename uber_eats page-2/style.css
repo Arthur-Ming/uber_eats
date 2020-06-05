@@ -15,7 +15,10 @@
 }
 
 /*------------------------------------Header-----------------------------------------------------*/
-
+#h {
+	position: absolute;
+	top: 0;
+}
 .header {
 	position: fixed;
 	width: 100%;
@@ -61,7 +64,7 @@
 .jumbotron {
 	height: 364px;
 	margin: 72px auto 0;
-	background: url("img/photo.svg");
+	background: url("img/photo.svg") top center;
 }
 @media screen and (max-width: 767px) {
 	.jumbotron {
@@ -195,8 +198,6 @@
 .main-list {
 }
 .main-list__title {
-	max-width: 956px;
-
 	font-style: normal;
 	font-weight: normal;
 	font-size: 22px;
@@ -236,15 +237,7 @@
 	border-radius: 2px;
 	height: 162px;
 }
-@media screen and (max-width: 768px) {
-	.main-list__section {
-		margin-bottom: 32px;
-	}
-}
 
-.leftpart {
-	height: 160px;
-}
 .icon {
 	width: 170px;
 	height: 160px;
@@ -286,14 +279,30 @@
 	color: #1d1d1d;
 	margin-top: 58px;
 }
+@media screen and (max-width: 768px) {
+	.main-list__section {
+		margin-bottom: 32px;
+	}
+	.leftpart__text-1,
+	.leftpart__text-2,
+	.leftpart__text-3 {
+		margin-left: 24px;
+	}
+}
 @media screen and (max-width: 425px) {
 	.main-list__section {
 		margin-bottom: 16px;
 		border: none;
 		border-bottom: 1px solid rgba(117, 117, 117, 0.2);
-
-		height: 102px;
+		height: 100px;
 	}
+
+	.leftpart__text-1,
+	.leftpart__text-2,
+	.leftpart__text-3 {
+		margin-left: 0px;
+	}
+
 	.icon {
 		width: 102px;
 		height: 102px;
@@ -320,8 +329,18 @@
 	min-height: 552px;
 
 	max-width: 1124px;
-	margin: 0 auto 0;
+	margin: 31px auto 0;
 	background: #262626;
+}
+@media screen and (max-width: 768px) {
+	.footer {
+		margin-top: 16px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.footer {
+		margin-top: 24px;
+	}
 }
 .footer__body {
 	margin: auto;

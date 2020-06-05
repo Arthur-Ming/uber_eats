@@ -10,77 +10,75 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-md-12 col-lg-12">
-				<div class="wrapper">
-					<!---------------------------------------------Header--------------------------------------------->
 
-					<div class="header">
-						<div class="header__content">
-							<div class="container">
-								<div class="row">
-									<div class="col-xs-12 col-md-12 col-lg-12">
-										<div class="header__body">
-											<div class="header__logo">
-												<img src="img/logo.svg" alt="Логотип" width="119.23" height="12.31">
-											</div>
-											<div class="header__items">
-												<div class="header__sign-in">
-													<a href="#"><img src="img/sign-in.svg" alt="sign-in" width="78" height="40"></a>
-												</div>
-												<div class="header__basket">
-													<a href="#"><img src="img/basket.svg" alt="sign-in" width="18.95"
-															height="21.74"></a>
-												</div>
-											</div>
-										</div>
-									</div>
+	<div class="wrapper">
+		<div id="h"></div>
+		<header class="header">
+			<div class="header__content">
+				<div class="content">
+					<div class="container">
+						<div class="header__body">
+							<div class="header__logo">
+								<img src="img/logo.svg" alt="Логотип">
+							</div>
+							<div class="header__items">
+								<div class="header__sign-in">
+									<a href="#"><img src="img/sign-in.svg" alt="sign-in" width="78" height="40"></a>
+								</div>
+								<div class="header__basket">
+									<a href="#"><img src="img/basket.svg" alt="sign-in" width="18.95" height="21.74"></a>
 								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</header>
+		<!---------------------------------------------Search--------------------------------------------->
+		<div class="search">
+			<div class="content">
+				<div class="container">
 
-					<!---------------------------------------------Search--------------------------------------------->
-					<div class="col-xs-12 col-md-12 col-lg-12">
-						<div class="search">
-							<form class="search__form">
-								<p><input type="text" name="q" placeholder="Поиск по ресторанам и кухням">
-								</p>
-							</form>
-						</div>
+					<form class="search__form">
+						<p><input type="text" name="q" placeholder="Поиск по ресторанам и кухням"></p>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!---------------------------------------------Moscow_Restaurants--------------------------------------------->
+		<main class="main-list">
+			<div class="content">
+				<div class="container">
+					<div class="main-list__title">
+						Рестораны в Москве
 					</div>
-					<!---------------------------------------------Moscow_Restaurants--------------------------------------------->
-
-					<main class="main">
-						<h1>Рестораны в Москве</h1>
-
-						<div class="main__body">
-							<div class="col-md-6 col-lg-4">
-								<div class="main__section">
+					<div class="main-list__body">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab">
+										<a href="../uber_eats page-2/index.html" target="newtab">
 											<img src="img/card_1.png" alt="Макдоналдс — Газетный" title="Макдоналдс — Газетный">
 										</a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">Макдоналдс —
-													Газетный
-												</a></div>
+											<div class="main__item-1">
+												<a href="../uber_eats page-2/index.html" target="newtab">Макдоналдс — Газетный</a>
+											</div>
 											<div class="main__item-2">₽₽ • Бургеры </div>
 											<div class="main__item-3">25 - 35 мин </div>
 										</figcaption>
 									</figure>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-lg-4">
-								<div class="main__section">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab"><img src="img/card_2.png"
+										<a href="../uber_eats page-2/index.html" target="newtab"><img src="img/card_2.png"
 												alt="DimSum & Co — ЦДМ" title="DimSum & Co — ЦДМ"></a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">DimSum & Co —
-													ЦДМ
-												</a>
+											<div class="main__item-1">
+												<a href="../uber_eats page-2/index.html" target="newtab">DimSum& Co — ЦДМ </a>
 											</div>
 											<div class="main__item-2">₽ • Японская • Китайская • Азиатская </div>
 											<div class="main__item-3">40 - 50 мин </div>
@@ -88,13 +86,15 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-lg-4">
-								<div class="main__section">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab"><img src="img/card_3.png"
+										<a href="../uber_eats page-2/index.html" target="newtab"><img src="img/card_3.png"
 												alt="ДвижОК — Манежная" title="ДвижОК — Манежная"></a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">ДвижОК —
+											<div class="main__item-1"><a href="../uber_eats page-2/index.html"
+													target="newtab">ДвижОК
+													—
 													Манежная
 												</a>
 											</div>
@@ -104,13 +104,14 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-lg-4">
-								<div class="main__section">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab"><img src="img/card_4.png" alt="НЯ — NHA"
-												title="НЯ — NHA"></a>
+										<a href="../uber_eats page-2/index.html" target="newtab"><img src="img/card_4.png"
+												alt="НЯ — NHA" title="НЯ — NHA"></a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">НЯ — NHA </a>
+											<div class="main__item-1"><a href="../uber_eats page-2/index.html" target="newtab">НЯ —
+													NHA </a>
 											</div>
 											<div class="main__item-2">₽₽ • Вьетнамская </div>
 											<div class="main__item-3">30 - 40 мин </div>
@@ -118,13 +119,16 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-lg-4">
-								<div class="main__section">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab"><img src="img/card_5.png"
+										<a href="../uber_eats page-2/index.html" target="newtab"><img src="img/card_5.png"
 												alt="Точка Дзы — Цветной" title="Точка Дзы — Цветной"></a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">Точка Дзы —
+											<div class="main__item-1"><a href="../uber_eats page-2/index.html"
+													target="newtab">Точка
+													Дзы
+													—
 													Цветной
 												</a>
 											</div>
@@ -134,13 +138,14 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-lg-4">
-								<div class="main__section">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab"><img src="img/card_6.png" alt="Cinnabon"
-												title="Cinnabon"></a>
+										<a href="../uber_eats page-2/index.html" target="newtab"><img src="img/card_6.png"
+												alt="Cinnabon" title="Cinnabon"></a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">Cinnabon</a>
+											<div class="main__item-1"><a href="../uber_eats page-2/index.html"
+													target="newtab">Cinnabon</a>
 											</div>
 											<div class="main__item-2">₽ • Выпечка • Десерты • Капкейки </div>
 											<div class="main__item-3">25 - 35 мин </div>
@@ -148,13 +153,15 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-lg-4">
-								<div class="main__section">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab"><img src="img/card_7.png" alt="PIZZELOVE"
-												title="PIZZELOVE"></a>
+										<a href="../uber_eats page-2/index.html" target="newtab"><img src="img/card_7.png"
+												alt="PIZZELOVE" title="PIZZELOVE"></a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">PIZZELOVE </a>
+											<div class="main__item-1"><a href="../uber_eats page-2/index.html"
+													target="newtab">PIZZELOVE
+												</a>
 											</div>
 											<div class="main__item-2">₽₽ • Бургеры </div>
 											<div class="main__item-3">25 - 35 мин </div>
@@ -162,13 +169,14 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-lg-4">
-								<div class="main__section">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab"><img src="img/card_8.png"
+										<a href="../uber_eats page-2/index.html" target="newtab"><img src="img/card_8.png"
 												alt="Zю кафе — Тверская" title="Zю кафе — Тверская"></a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">Zю кафе —
+											<div class="main__item-1"><a href="../uber_eats page-2/index.html" target="newtab">Zю
+													кафе —
 													Тверская
 												</a>
 											</div>
@@ -178,13 +186,14 @@
 									</figure>
 								</div>
 							</div>
-							<div class="col-xs-12 col-md-6 col-lg-4">
-								<div class="main__section">
+							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+								<div class="main-list__section">
 									<figure>
-										<a href="../page_2/index.html" target="newtab"><img src="img/card_9.png"
+										<a href="../uber_eats page-2/index.html" target="newtab"><img src="img/card_9.png"
 												alt="Bar BQ Cafe — Манежная" title="Bar BQ Cafe — Манежная"></a>
 										<figcaption>
-											<div class="main__item-1"><a href="../page_2/index.html" target="newtab">Bar BQ Cafe —
+											<div class="main__item-1"><a href="../uber_eats page-2/index.html" target="newtab">Bar
+													BQ Cafe —
 													Манежная
 												</a></div>
 											<div class="main__item-2">₽₽₽ • Европейская </div>
@@ -194,11 +203,12 @@
 								</div>
 							</div>
 						</div>
-					</main>
+					</div>
 				</div>
-			</div>
-		</div>
+		</main>
+
 	</div>
+
 
 	<!---------------------------------------------Footer-------------------------------------------------->
 	<footer class="footer">
@@ -280,10 +290,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="button-up"><a href="#h"><img src="img/btn-up.svg" alt="btn-up" title="btn-up"></a>
-			</div>
+
 		</div>
 	</footer>
+	<div class="button-up"><a href="#h"><img src="img/btn-up.svg" alt="btn-up" title="btn-up"></a>
+	</div>
 
 
 
