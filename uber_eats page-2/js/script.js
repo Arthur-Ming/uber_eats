@@ -40,7 +40,7 @@ document.querySelector(".menu__list").addEventListener('click', function (event)
 
 /*--------------------------------------------------------------------------------------------------------*/
 
-let x = (document.documentElement.clientWidth - document.querySelector(".wrapper").clientWidth) / 2;
+/*let x = (document.documentElement.clientWidth - document.querySelector(".wrapper").clientWidth) / 2;
 
 document.querySelector(".button-up").style.right = x + 16 + "px";
 
@@ -49,7 +49,7 @@ window.onresize = function () {
   let x_onresize = (document.documentElement.clientWidth - document.querySelector(".wrapper").clientWidth) / 2;
   document.querySelector(".button-up").style.right = x_onresize + 16 + "px";
 
-}
+}*/
 
 
 
