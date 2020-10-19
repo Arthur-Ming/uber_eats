@@ -95,6 +95,7 @@
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 @media screen and (max-width: 768px) {
@@ -638,17 +639,13 @@
 	cursor: pointer;
 	display: none;
 	opacity: 0.5;
-	/*visibility: hidden;
-	opacity: 0;
-	transition-property: opacity;
-	transition-duration: 0.5s;*/
+	transition: opacity 0.5s ease 0s;
 }
 
-/*.button-up.button-up-active {
-	visibility: visible;
-	opacity: 0.8;
-}*/
-
+.button-up:hover {
+	opacity: 0.9;
+	transition: opacity 0.5s ease 0s;
+}
 .button-up img {
 	width: 100%;
 	height: 100%;

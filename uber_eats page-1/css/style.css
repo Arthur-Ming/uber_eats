@@ -9,17 +9,16 @@
 	width: 100%;
 	height: 100%;
 	margin: auto;
-   font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 /*------------------------------------Header-----------------------------------------------------*/
 
-
 @media screen and (max-width: 425px) {
 	.main-list__image {
-	display: block;
-	 height: 250px;
-}
+		display: block;
+		height: 250px;
+	}
 }
 
 #h {
@@ -35,7 +34,7 @@
 }
 .header__content {
 	height: 72px;
-	
+
 	background-color: #ffffff;
 	margin: auto;
 	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
@@ -48,11 +47,9 @@
 	justify-content: space-between;
 }
 .header__logo {
-	
 	margin: 28px 0 0 -1px;
 }
 .header__logo img {
-	
 }
 .header__items {
 	display: flex;
@@ -68,8 +65,8 @@
 		display: none;
 	}
 	.header__sign-in {
-	margin: 16px 16px 0 0;
-  }
+		margin: 16px 16px 0 0;
+	}
 }
 /*------------------------------------Search-----------------------------------------------------*/
 
@@ -116,14 +113,22 @@
 	margin-top: 15px;
 	cursor: pointer;
 	margin: 0 -3px;
-	padding: 0 3px; 
+	padding: 0 3px;
 }
-
-
+.main-list__section figure {
+	overflow: hidden;
+}
 .main-list__section:hover {
 	background-color: #dedede;
 }
-
+.main-list__section .ibg {
+	transform: scale(1);
+	transition: transform 0.5s ease 0s;
+}
+.main-list__section:hover .ibg {
+	transform: scale(1.05);
+	transition: transform 0.5s ease 0s;
+}
 .main__item-1 {
 	font-size: 16px;
 	line-height: 24px;
@@ -148,17 +153,16 @@
 	color: #1d1d1d;
 }
 .ibg {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .ibg img {
-  display: none;
+	display: none;
 }
 .main-list__image {
 	display: block;
-	 height: 256px;
+	height: 256px;
 }
 /*------------------------------------Footer-----------------------------------------------------*/
 .footer {
@@ -172,12 +176,10 @@
 	height: 116px;
 }
 .footer__logo {
-	
 	padding: 54px 0 0 2px;
 	margin-left: -4px;
 }
 .footer__section-1 img {
-	
 }
 .line {
 	height: 1px;
@@ -244,20 +246,20 @@
 	margin: 0;
 }
 
-.ul{
+.ul {
 	display: none;
 }
 
 .social-network {
 	padding: 105px 0 0 0;
 }
-.contacts-social{
+.contacts-social {
 	padding-top: 17px;
 }
-.contacts-social__item{
+.contacts-social__item {
 	margin-right: 6px;
 }
-.contacts-social__item:last-child{
+.contacts-social__item:last-child {
 	margin-right: 0px;
 }
 .social-network p {
@@ -272,7 +274,6 @@
 	color: #49a144;
 }
 
-
 .footer__row-1 {
 	margin-bottom: 30px;
 }
@@ -285,8 +286,6 @@
 	margin: 0 0 23px 0;
 	height: 16px;
 }
-
-	
 
 @media screen and (max-width: 767px) {
 	.footer__row-2 {
@@ -321,21 +320,19 @@
 }
 .footer__section-3 figure:hover {
 	opacity: 1;
-	
 }
 .footer__section-3 figure:first-child {
 	padding: 0;
 }
 @media screen and (max-width: 767px) {
-.footer__section-3 {
-	height: 84px;
-	
-}
+	.footer__section-3 {
+		height: 84px;
+	}
 
 	.footer__section-3 figure {
-	transform: scale(0.9, 0.9);
-	margin: 0 0 0 12.5px;
-}
+		transform: scale(0.9, 0.9);
+		margin: 0 0 0 12.5px;
+	}
 }
 .footer__section-4 {
 	margin-left: -8px;
@@ -343,7 +340,6 @@
 .section-4 {
 	display: flex;
 	flex-wrap: wrap;
-
 }
 .section-4__item {
 	margin: 38px 0 12px 0;
@@ -351,7 +347,6 @@
 	align-items: center;
 }
 .footer__section-4 a {
-
 	font-size: 11px;
 	line-height: 13px;
 	color: #ffffff;
@@ -360,16 +355,14 @@
 
 @media screen and (max-width: 767px) {
 	.section-4 {
-	margin-top: 30px;
-	padding-bottom: 28px;
-
-}
-	.section-4__item {
-	margin: 0;
-	padding: 12px 0 12px 0;
-	
-}
+		margin-top: 30px;
+		padding-bottom: 28px;
 	}
+	.section-4__item {
+		margin: 0;
+		padding: 12px 0 12px 0;
+	}
+}
 .button-up {
 	position: fixed;
 	width: 80px;
@@ -379,16 +372,13 @@
 	cursor: pointer;
 	display: none;
 	opacity: 0.5;
-	/*visibility: hidden;
-	opacity: 0;
-	transition-property: opacity;
-	transition-duration: 0.5s;*/
+	transition: opacity 0.5s ease 0s;
 }
 
-/*.button-up.button-up-active {
-	visibility: visible;
-	opacity: 0.8;
-}*/
+.button-up:hover {
+	opacity: 0.9;
+	transition: opacity 0.5s ease 0s;
+}
 
 .button-up img {
 	width: 100%;
